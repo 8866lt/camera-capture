@@ -1,0 +1,8 @@
+object_detector:
+  ros__parameters:
+    model_path: 'yolov8n.pt'
+    confidence_threshold: 0.5
+    iou_threshold: 0.45
+    target_classes: []  # 空列表表示所有类别
+    device: 'cuda:0'
+    publish_visualization: true
